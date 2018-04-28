@@ -1,0 +1,292 @@
+/*
+	css file for my website 
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
+
+/* General tags */
+
+p 
+{
+	font-size: 14px;
+	line-height: 22.4px;
+	color: #6c7279;
+}
+
+h1 
+{
+	font-size: 65px;
+	color: #2d3033;
+}
+
+h2 
+{
+	font-size: 40px;
+	color: #2d3033;
+}
+
+h3 
+{
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+
+h4 
+{
+	font-size: 22px;
+	color: #2d3033;
+	font-weight: 400;
+}
+
+h5 
+{
+	font-size: 14px;
+	color: #2d3033;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+a 
+{
+	color: #e84545;
+}
+
+a:hover, a:focus 
+{
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+}
+
+body 
+{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #6c7279;
+}
+
+ul , ol 
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul li 
+{
+	list-style: none;
+}
+
+.section
+{
+	margin-top: 5%;
+}
+
+/* Navigation Pane */
+
+#header 
+{
+	background: rgba(0 , 0 , 0 , 0.5);
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	margin: 0 auto;
+	padding: 12px 0;
+	padding-top: 20px;
+	-moz-transition: padding 0.3s;
+	-o-transition: padding 0.3s;
+	-webkit-transition: padding 0.3s;
+	transition: padding 0.3s;
+}
+
+.navigation.open 
+{
+	opacity: 0.9;
+	visibility: visible;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.navigation 
+{
+	width: 100%;
+	float: left;
+}
+
+.navigation li 
+{
+	margin-left: 3%;
+	display: inline-block;
+}
+
+.navigation a 
+{
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.navigation a:link , .navigation a:visited
+{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.navigation a:hover
+{
+	color: rgba(255, 255, 255, 1);
+}
+
+.navigation a:link , .navigation a:visited , .navigation a:hover
+{
+	outline: 0;
+	text-decoration: none;
+}
+
+/* Title Banner */
+#title , #title1
+{
+	min-height: 100vh;	
+	padding-top: 20%;
+	text-align: center;
+}
+
+#title
+{
+	background-color: rgba(50 , 20 , 200 , 1);
+}
+
+#title a
+{
+	outline: 0;
+}
+
+#title1
+{
+	background-image: url("../images/projects.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#title h1 , #title1 h1
+{
+	color: rgba(255, 255, 255, 1);
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+}
+
+#title p
+{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+/* General titles */
+/* About Me */
+
+.titles h2
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+.data
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align:center;
+	color: #3d3d3d;
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: 400;
+}
+
+.websites
+{
+	text-align:center;
+	color: #3d3d3d;
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: 400;
+}
+
+/* Skill set */
+
+#images
+{
+	float: left;
+	margin-top: 20px;
+	width: auto;
+	max-width: 50%;
+}
+
+#skillList
+{
+	width: 100%;
+}
+
+#skillList ul li
+{
+	font-size: 20px;
+	margin: 10px;
+	margin-right: 40px;
+}
+
+#skillList ul 
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+}
+
+img
+{
+	width: auto;
+	height: auto;
+	max-width: 45%;
+	max-height: 45%;
+}
+
+/* Contact Me */
+#contactMe 
+{
+	margin-top: 20%;
+}
+
+#contactMe ul
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* Projects html */
+
+/* project pics */
+.projectPics
+{
+	width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+/* disclaimer */
+#disclaimer
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
