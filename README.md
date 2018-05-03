@@ -1,2 +1,1 @@
-# moekaz.github.io
-My Website
+This is the repo that will store my static website!!!
